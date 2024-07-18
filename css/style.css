@@ -1,0 +1,381 @@
+/** FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
+
+/**RESET*/
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body {
+    font-family: "Gantari", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;}
+
+
+/*! HEADER */ /*! HEADER */ 
+
+header{background-color: #9aad56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li {list-style: none;
+display: inline-block;
+margin: 15px;}
+
+header nav ul li a {text-decoration: none; color: white; font-size: 18px;}
+
+header nav a:hover{ 
+    text-decoration: underline currentColor;
+}
+
+header img {
+    width: 170px;
+    height: 100px;
+    padding: 10px;
+}
+
+
+/**  MAIN */ /**  MAIN */ /**  MAIN */
+
+/*! INDEX */ /*! INDEX */
+
+.hero1{
+    margin-top: 10px;
+    background-image: url(../img/consultoria.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero1 h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 800;    
+}
+
+.hero1 h2{
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+.hero2 .divtexto p {
+    font-size: 20px;
+    text-align: left;
+    padding: 50px;
+    margin: 10px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.serviciosindex {
+    margin-bottom: 50px;
+    border: 2px solid black;
+}
+
+.serviciosindex h2 {
+    text-align: center;
+    margin: 40px;
+}
+
+.serviciosindextarjetas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.serviciosindextarjetas h3 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.serviciosindextarjetas div {
+    border: 2px solid gray;
+    width: 250px;
+    height: 280px;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.serviciosindextarjetas .boton {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    background-color: #7daab5;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+}
+
+.serviciosindextarjetas img {
+    height: 150px;
+    width: 100%;
+}
+
+.textoyfoto1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+}
+
+.textoyfoto1 img {
+    height: 250px;
+    width: auto;
+}
+
+.textoyfoto2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 50px;
+}
+.textoyfoto2 img {
+    width: auto;
+    height: 250px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+
+.fixed img {
+    width: 60px;
+    height: 60px;
+}
+
+/*! SERVICIOS */ /*! SERVICIOS */
+
+.heroservicios {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.heroservicios h1 {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 50px;
+}
+
+.heroservicios p {
+    text-align: center;
+    margin: 5px;
+}
+
+.serviciospages {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 50px; 
+}
+
+.serviciospages div {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: start; 
+    gap: 20px; 
+    border: dashed ;
+    border-color: grey;
+    border-radius: 25px;
+    margin-top: 20;
+    margin: 30px;
+    padding: 10px;
+}
+
+.serviciospages h2 {
+    grid-column: 1 / 2; 
+    grid-row: 1; 
+    justify-self: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: left;
+}
+
+.serviciospages p {
+    grid-column: 1 / 2; 
+    grid-row: 2; 
+    justify-self: center;
+}
+
+.serviciospages a {
+    grid-column: 1 / 2; 
+    grid-row: 3; 
+    justify-self: center; 
+    padding: 10px 20px; 
+    color: white; 
+    text-decoration: none; 
+    display: inline-block; 
+    background-color: #7daab5;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.serviciospages img {
+    grid-column: 2 / 3; 
+    grid-row: 1 / 4; 
+    justify-self: center; 
+    align-self: center; 
+    width: auto;
+    height: 250px;
+}
+
+
+/*! EMPRESA  */ /*! EMPRESA  */ 
+
+.heroempresa {
+    padding: 20px;
+}
+
+.heroempresa h1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.empresa {
+    background-color: #7daab5;
+}
+
+.empresa .empresatexto {
+    text-align: left;
+    font-family: sans-serif;
+}
+.empresa img {
+    height: 250px;
+    width: 250px;
+}
+
+
+/** FOOTER */ /** FOOTER */ /** FOOTER */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #9aad56;
+    padding: 20px;
+    gap: 20px;
+}
+
+.contactofooter {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+}
+
+.contactofooter div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactofooter img {
+    width: 35px;
+    height: 35px;
+}
+
+.contactofooter a {
+    display: contents;
+    text-decoration: none;
+    color: inherit;
+}
+
+.contactofooter h6 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.mapa iframe {
+    border: 0;
+    width: 100%;
+    height: 200px;
+}
+
+
+/*! MEDIAS */ 
+/*? MEDIAS */
+/*! MEDIAS */ 
+/*? MEDIAS */
+
+/**INDEX*/
+
+@media screen and (max-width: 1050px) {
+    .textoyfoto1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+    
+    .textoyfoto1 img {
+        height: 220px;
+        width: auto;
+        margin-top: 20px;
+    }
+    
+    .textoyfoto2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+    .textoyfoto2 img {
+        width: auto;
+        height: 220px;
+        margin-top: 20px;
+    }
+}
+    
+
+/** SERVICIOS*/
+
+@media screen and (max-width: 880px){
+    
+    .serviciospages div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        border: dashed ;
+        border-color: grey;
+        border-radius: 25px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .serviciospages img {
+        width: 350px;
+        height: auto;
+    }
+    .serviciospages h2 {
+        font-size: 20px;
+    }
+
+}
