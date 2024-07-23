@@ -21,11 +21,9 @@ header{background-color: #9aad56;
     align-items: center;
 }
 
-header nav ul li {list-style: none;
-display: inline-block;
-margin: 15px;}
-
-header nav ul li a {text-decoration: none; color: white; font-size: 18px;}
+.nav-item {
+    font-size: 20px;
+}
 
 header nav a:hover{ 
     text-decoration: underline currentColor;
